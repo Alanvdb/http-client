@@ -1,0 +1,21 @@
+{
+    "name": "alanvdb/http-client",
+    "description": "Simple HTTP client based on cURL.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Http\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "psr/http-message": "^2.0"
+    }
+}
